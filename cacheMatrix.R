@@ -52,9 +52,11 @@ cachemean <- function(x, ...) {
 x <- 1:4
 makeVector(x)
 cachemean(x) # Error: $ operator is invalid for atomic vectors
-################################################################################
-################################################################################
 
+
+################################################################################
+# The actual assignment starts here:
+################################################################################
 # Based on the examples given
 # Let's create the 1st function named makeCacheMatrix()
 # makeCacheMatrix() creates a special "matrix" and:
@@ -108,6 +110,3 @@ makeCacheMatrix.object$getInv
 # Testing the cacheSolve() function
 cacheSolve(makeCacheMatrix.object)
 
-
-
-# ProgrammingAssignment2
