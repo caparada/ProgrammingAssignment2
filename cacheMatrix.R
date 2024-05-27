@@ -57,8 +57,7 @@ cachemean(x) # Error: $ operator is invalid for atomic vectors
 ################################################################################
 # Now lets calculate the inverse of a matrix and cache its inverse for later use
 ################################################################################
-# Based on the examples given
-# Let's create the 1st function named makeCacheMatrix()
+# Create the 1st function named makeCacheMatrix()
 # makeCacheMatrix() creates a special "matrix" and:
 # 1. set the value of the matrix
 # 2. get the value of the matrix
@@ -77,7 +76,6 @@ makeCacheMatrix <- function(x = matrix()) { # it creates a special "matrix"
        setInv = setInv,
        getInv = getInv)
 }
-
 # The object inv will (later) hold the inverse of the matrix x that makeCacheMatrix was called with 
 
 # Making the cacheSolve() function 
