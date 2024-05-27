@@ -55,7 +55,7 @@ cachemean(x) # Error: $ operator is invalid for atomic vectors
 
 
 ################################################################################
-# The actual assignment starts here:
+# Now lets calculate the inverse of a matrix and cache its inverse for later use
 ################################################################################
 # Based on the examples given
 # Let's create the 1st function named makeCacheMatrix()
